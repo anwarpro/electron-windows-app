@@ -1,0 +1,39 @@
+{
+  "name": "electron-windows-app",
+  "productName": "electron-windows-app",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "startDebug": "electron-forge start --inspect-electron",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Mohammad Anwar",
+    "email": "anwar.hussen.pro@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "@electron-forge/plugin-webpack": "^6.0.4",
+    "@vercel/webpack-asset-relocator-loader": "1.7.3",
+    "css-loader": "^6.0.0",
+    "electron": "git+https://github.com/castlabs/electron-releases.git#v11.4.0-wvvmp",
+    "node-loader": "^2.0.0",
+    "style-loader": "^3.0.0"
+  },
+  "dependencies": {
+    "downstream-electron": "git+https://github.com/anwarpro/downstream_electron.git",
+    "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.6.1"
+  }
+}
