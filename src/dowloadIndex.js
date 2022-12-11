@@ -3,6 +3,7 @@
 console.log("loading downloadIndex.js")
 
 window.$ = window.jQuery = require('jquery');
+const fs = require('fs');
 
 const streamUrl = 'https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd';
 const licenseUrl = 'https://cwip-shaka-proxy.appspot.com/no_auth';

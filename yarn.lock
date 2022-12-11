@@ -253,9 +253,9 @@
     fs-extra "^9.0.1"
 
 "@electron/osx-sign@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@electron/osx-sign/-/osx-sign-1.0.2.tgz#c29c2f16f1a5ab7d43830a9493bcaa79f2877201"
-  integrity sha512-TuDdc+J2LKRyX2w1ue/P3doabxRAsYqmF+32x1fxf5tFnWBfhcbM0eoM/wbbEIuM+gleNhaOkWzk2j5ZJTfL9w==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@electron/osx-sign/-/osx-sign-1.0.4.tgz#8e91442846471636ca0469426a82b253b9170151"
+  integrity sha512-xfhdEcIOfAZg7scZ9RQPya1G1lWo8/zMCwUXAulq0SfY7ONIW+b9qGyKdMyuMctNYwllrIS+vmxfijSfjeh97g==
   dependencies:
     compare-version "^0.1.2"
     debug "^4.3.4"
@@ -567,9 +567,9 @@
   integrity sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==
 
 "@types/node@*":
-  version "18.11.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.10.tgz#4c64759f3c2343b7e6c4b9caf761c7a3a05cee34"
-  integrity sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==
+  version "18.11.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.11.tgz#1d455ac0211549a8409d3cdb371cd55cc971e8dc"
+  integrity sha512-KJ021B1nlQUBLopzZmPBVuGU9un7WJd/W4ya7Ih02B4Uwky5Nja0yGYav2EfYIk0RR2Q9oVhf60S2XR1BCWJ2g==
 
 "@types/node@^12.0.12":
   version "12.20.55"
